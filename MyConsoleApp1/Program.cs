@@ -12,5 +12,16 @@ namespace MyConsoleApp1
         {
             Console.WriteLine("Hello World!");
         }
+
+        
+    }
+
+    class Temperature
+    {
+        static float FahreneitToCelsius(float temperatureFahreneit)
+        {
+            float temperatureCelsius = ((temperatureFahreneit - 32) / 1.8f);
+            return temperatureCelsius;
+        }
     }
 }
